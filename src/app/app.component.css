@@ -1,0 +1,82 @@
+.body{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.login{
+    width: 100%;
+    max-width: 330px;
+    text-align: center;
+}
+
+.anchura{
+    width: 80%;
+}
+
+.button{
+    height: 50px;
+}
+
+.container{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+td{
+    max-width: 700px;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.edit{
+    color: #4747f3;
+}
+
+.delete{
+    color: #e80000;
+}
+
+.envios{
+    
+    
+    grid-column: 1/5;
+  grid-row: 1/2;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+
+.formulario{
+  grid-column: 5/11;
+  grid-row: 1/2;
+  border-radius: 20px;
+  margin-top: 20px;
+  
+}
+
+.cosas{
+display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  gap: 20px;
+}
+
+.formulario-inputs{
+    padding: 10px;
+}
+
+.registrar-boton{
+    height: 50px;
+    
+}
+

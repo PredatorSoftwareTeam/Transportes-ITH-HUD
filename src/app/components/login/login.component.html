@@ -1,0 +1,18 @@
+<div class="body">
+    <div class="login">
+        <form [formGroup]="form" (ngSubmit)="ingresar()">
+            <img src="../assets/img/login.png" alt="" width="50%">
+            <h1>Login</h1>
+            <mat-form-field appearance="fill" class="anchura">
+              <mat-label>Usuario</mat-label>
+              <input matInput formControlName="user"> 
+            </mat-form-field>
+            <mat-form-field appearance="fill" class="anchura">
+              <mat-label>Contraseña</mat-label>
+              <input matInput type="password" formControlName="pass">
+            </mat-form-field>
+            <br>
+            <button type="submit" mat-raised-button color="primary" class="anchura button" [disabled]="form.invalid">Ingresar</button>
+        </form>
+    </div> 
+  </div>
